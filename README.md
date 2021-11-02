@@ -1,3 +1,11 @@
+Syndicate version
+
+gradlew jar
+mvn install:install-file -Dfile=./build/libs/MockBukkit.jar -DgroupId=be.seeseemelk -DartifactId=mockbukkit -Dversion=1.8 -Dpackaging=jar -DgeneratePom=true
+
+
+
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/403a4bb837ca47333d33/maintainability)](https://codeclimate.com/github/seeseemelk/MockBukkit/maintainability)
 # MockBukkit
 MockBukkit is a framework that makes the unit testing of Bukkit plugins a whole lot easier.

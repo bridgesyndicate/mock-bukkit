@@ -979,7 +979,7 @@ public class WorldMock implements World
 	public boolean setGameRuleValue(String rule, String value)
 	{
 		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+		return true;
 	}
 	
 	@Override

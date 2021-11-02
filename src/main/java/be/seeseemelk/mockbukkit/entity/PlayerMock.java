@@ -566,7 +566,7 @@ public class PlayerMock extends EntityMock implements Player
 	public Collection<PotionEffect> getActivePotionEffects()
 	{
 		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    return new ArrayList<PotionEffect>();
 	}
 	
 	@Override
@@ -864,8 +864,7 @@ public class PlayerMock extends EntityMock implements Player
 	@Override
 	public void playSound(Location location, Sound sound, float volume, float pitch)
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    return;
 	}
 	
 	@Override
@@ -1152,8 +1151,7 @@ public class PlayerMock extends EntityMock implements Player
 	@Override
 	public void setExp(float exp)
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    return;
 	}
 	
 	@Override
@@ -1166,8 +1164,7 @@ public class PlayerMock extends EntityMock implements Player
 	@Override
 	public void setLevel(int level)
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    return;
 	}
 	
 	@Override
@@ -1208,8 +1205,7 @@ public class PlayerMock extends EntityMock implements Player
 	@Override
 	public void setSaturation(float value)
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    return;
 	}
 	
 	@Override
@@ -1222,8 +1218,7 @@ public class PlayerMock extends EntityMock implements Player
 	@Override
 	public void setFoodLevel(int value)
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    return;
 	}
 	
 	@Override
@@ -1341,8 +1336,7 @@ public class PlayerMock extends EntityMock implements Player
 	@Override
 	public Scoreboard getScoreboard()
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    return Bukkit.getScoreboardManager().getNewScoreboard();
 	}
 	
 	@Override

@@ -30,7 +30,6 @@ public abstract class InventoryMock implements org.bukkit.inventory.Inventory
 		this.holder = holder;
 		this.name = name;
 		this.type = type;
-		
 		items = new ItemStack[size];
 	}
 	
@@ -151,7 +150,7 @@ public abstract class InventoryMock implements org.bukkit.inventory.Inventory
 	@Override
 	public void setItem(int index, ItemStack item)
 	{
-		items[index] = item.clone();
+	    items[index] = item.clone();
 	}
 	
 	/**
@@ -370,8 +369,7 @@ public abstract class InventoryMock implements org.bukkit.inventory.Inventory
 	@Override
 	public void clear()
 	{
-		// TODO Auto-generated method stub
-		throw new UnimplementedOperationException();
+	    Arrays.fill(items, null);
 	}
 	
 	@Override

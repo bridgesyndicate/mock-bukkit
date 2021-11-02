@@ -373,14 +373,14 @@ public abstract class EntityMock implements Entity, MessageTarget
 	public void setVelocity(Vector velocity)
 	{
 		// TODO Auto-generated constructor stub
-		throw new UnimplementedOperationException();
+	    return;
 	}
 	
 	@Override
 	public Vector getVelocity()
 	{
 		// TODO Auto-generated constructor stub
-		throw new UnimplementedOperationException();
+	    return new Vector();
 	}
 	
 	@Override
